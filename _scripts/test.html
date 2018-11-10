@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AEC Submission Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="403084340603-e1s5ba6sipigo0n2lg4bf3brdlooqphi.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+
+<body>
+    <form id="form" method="POST" action="https://script.google.com/macros/s/AKfycbxctJDWjMyKy-nuIdjfk0gavscn43EecjF83DGidfw/dev">
+        <label for="text">Content to be sent:</label>
+        <input type="text" name="text" id="input" required>
+        <input type="hidden" name="id_token" id="id_token">
+    </form>
+    <hr>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <script>
+        function onSignIn(user) {
+            console.log(JSON.stringify(user));
+            document.getElementById('id_token').value = user.getAuthResponse().id_token;
+            document.forms[0].submit();
+        }
+    </script>
+</body>
+
+</html>

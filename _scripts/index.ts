@@ -20,7 +20,7 @@ export function doPost(evt: HttpEvent) {
         const registrar = new Registrar();
 
         if (registrar.hasSubmitted(applicant))
-            return errorHtml(`${applicant.name} has already submitted`);
+            throw `${applicant.name} has already submitted`;
         
         const doc = createDocFor(applicant, evt.parameter.text);
         registrar.markSubmission(applicant, doc);

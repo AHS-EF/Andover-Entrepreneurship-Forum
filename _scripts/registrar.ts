@@ -17,7 +17,7 @@ export class Registrar {
     }
 
     private loadCache() {
-        const json = PropertiesService.getScriptProperties().getProperty('submissions') || '[]';
+        const json = PropertiesService.getScriptProperties().getProperty('submissions') || '{}';
         this.cache = JSON.parse(json);
     }
     private saveCache() {
