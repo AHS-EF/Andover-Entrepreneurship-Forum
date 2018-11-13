@@ -498,6 +498,9 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -864,4 +867,56 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+#excess-line-blocker {
+    width: 2px;
+    height: 35px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 1px);
+}
+
+@media screen and (max-width: 1999px) {
+    #excess-line-blocker {
+        width: 4px;
+        height: 55px;
+        left: calc(50% - 2px);
+    }
+}
+
+@media screen and(max-width: 991px) {
+    #excess-line-blocker {
+        width: 8px;
+        height: 200px;
+        left: calc(50% - 4px);
+    }
+}
+
+@media screen and (max-width: 767px){
+    #excess-line-blocker {
+        width: 4px;
+        left: 38px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 479px){
+    #excess-line-blocker {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 369px){
+    #excess-line-blocker {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 335px){
+    #excess-line-blocker {
+        height: 250px;
+    }
 }
