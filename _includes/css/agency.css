@@ -180,11 +180,18 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.data.template.color.primary }};
 }
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
+.navbar-default,
+.navbar-default,
+.navbar-default,
+.navbar-default {
     color: #{{ site.data.template.color.secondary }};
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active,
+.navbar-brand.active {
+    opacity: 0.6;
 }
 
 .navbar-default .navbar-collapse {
@@ -225,7 +232,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #{{ site.data.template.color.primary }}!important;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -919,4 +926,12 @@ body {
     #excess-line-blocker {
         height: 250px;
     }
+}
+
+.footer-link {
+    transition: 0.3s all ease;
+}
+
+.footer-link:hover {
+    text-decoration: none;
 }
