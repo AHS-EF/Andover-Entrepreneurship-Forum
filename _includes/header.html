@@ -18,21 +18,12 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+
+                    {% for link in site.data.navigation.navigation %}
                     <li>
-                        <a class="page-scroll" href="#mission">Our Mission</a>
+                        <a class="{{ 'page-scroll' if link.page-scroll }}" href="{{ link.link }}">{{ link.title }}</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#process">The Process</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#timeline">Timeline</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -44,9 +35,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">The Andover Entrepreneurship Forum</div>
-                <div class="intro-heading">Reinventing Education</div>
-                <a href="#mission" class="page-scroll btn btn-xl" style="transition: 0.25s all;">Learn More</a>
+                <div class="intro-lead-in">{{ site.title }}</div>
+                <div class="intro-heading">{{ site.data.textual_content.site-tagline }}</div>
+                <a href="#contact" class="page-scroll btn btn-xl" style="transition: 0.25s all;">Submit</a>
             </div>
         </div>
     </header>

@@ -1,0 +1,63 @@
+site-tagline: "Reinventing Education"
+
+mission-title: "Our Mission"
+mission-description: "At the Andover Entreprenuership Forum, we strive to encourage and inspire entrepreneurship by providing a platform that lets students to question the world around them."
+
+process:
+  - title: Think
+    description: What problem do you want to solve?
+    icon: fas fa-lightbulb  # See font awesome for more (https://fontawesome.com/icons?d=gallery&m=free)
+
+  - title: Design
+    description: How are you going to solve it?
+    icon: fas fa-pencil-ruler
+
+  - title: Submit
+    description: Tell us your idea!
+    icon: fa fa-paper-plane
+
+  - title: Present
+    description: Share your project!
+    icon: fab fa-slideshare
+
+process-title: "The Process"
+process-subtitle: "Lorem ipsum dolor sit amet consectetur."
+
+timeline-title: "Challenge Timeline"
+timeline-subtitle: "All the dates you need to know!"
+
+timeline:
+  - date: January 7<sup>th</sup>, 2019 # characters wrapped in <sup></sup> tags become superscript (small and above other text)
+    title: Challenge Launch
+    image: img/icon/rocket.png
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+  - date: February 15<sup>th</sup>, 2019
+    title: First Round Pitches Due
+    image: img/icon/calendar.png
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+  - date: March 5<sup>th</sup>, 2019
+    title: First Round Winners Announced
+    image: img/icon/award.png
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+  - date: April 9<sup>th</sup>, 2019
+    title: Second Round Plan and Pitches Due
+    image: img/icon/calendar.png
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+  - date: April 16<sup>th</sup>, 2019
+    title: Second Round Winners Announced
+    image: img/icon/medal.png
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+  - date: April 23<sup>rd</sup>, 2019
+    title: Final Plans and Final Pitches Due
+    image: img/icon/calendar.png
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+  - date: May 3<sup>rd</sup>, 2019
+    title: Finalists Events
+    image: img/icon/trophy.png
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"

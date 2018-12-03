@@ -1,0 +1,20 @@
+navigation:
+  - title: "Our Mission"
+    page-scroll: true
+    link: "#mission"
+
+  - title: "The Process"
+    page-scroll: true
+    link: "#process"
+
+  - title: "Timeline"
+    page-scroll: true
+    link: "#timeline"
+
+  - title: "Team"
+    page-scroll: true
+    link: "#team"
+
+  - title: "Contact"
+    page-scroll: true
+    link: "#contact"
