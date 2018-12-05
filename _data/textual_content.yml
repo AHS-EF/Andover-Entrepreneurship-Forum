@@ -5,7 +5,7 @@ header-button-link: "#contact"
 header-button-scroll: true
 header-button-open-in-new-tab: false # will not open in new tab if it is scrolling
 
-header-image: /img/header-bg.jpg # make sure this starts with a slash if it is a local link
+header-image: /img/lightbulb.jpg # make sure this starts with a slash if it is a local link
 # if no link is specified, it will default /img/header-bg.jpg
 
 mission-title: "Our Mission"
