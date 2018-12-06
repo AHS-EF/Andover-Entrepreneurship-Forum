@@ -18,19 +18,19 @@ process:
     icon: fas fa-lightbulb  # See font awesome for more (https://fontawesome.com/icons?d=gallery&m=free)
 
   - title: Design
-    description: How are you going to solve it?
+    description: Sketch out your ideas to solve it.
     icon: fas fa-pencil-ruler
 
-  - title: Submit
-    description: Tell us your idea!
-    icon: fa fa-paper-plane
+  - title: Prototype
+    description: Create a protoype.
+    icon: fa fa-hammer
 
   - title: Present
-    description: Share your project!
+    description: Pitch your idea.
     icon: fab fa-slideshare
 
 process-title: "The Process"
-process-subtitle: "Lorem ipsum dolor sit amet consectetur."
+process-subtitle: "We encourage utilizing Design Thinking - a solution-based approach to solving problems."
 
 timeline-title: "Challenge Timeline"
 timeline-subtitle: "All the dates you need to know!"
