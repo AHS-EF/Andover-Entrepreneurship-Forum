@@ -238,12 +238,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover {
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }}!important;
+    background-color: #{{ site.data.template.color.primary }}!important;
 }
 
 @media(min-width:768px) {
