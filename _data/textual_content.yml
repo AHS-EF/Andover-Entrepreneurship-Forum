@@ -18,7 +18,7 @@ process:
     icon: fas fa-lightbulb  # See font awesome for more (https://fontawesome.com/icons?d=gallery&m=free)
 
   - title: Design
-    description: Sketch out your ideas to solve it.
+    description: Sketch and plan your solution.
     icon: fas fa-pencil-ruler
 
   - title: Prototype
