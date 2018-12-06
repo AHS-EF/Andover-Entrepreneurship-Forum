@@ -9,7 +9,8 @@ header-image: /img/lightbulb.jpg # make sure this starts with a slash if it is a
 # if no link is specified, it will default /img/header-bg.jpg
 
 mission-title: "Our Mission"
-mission-description: "At the Andover Entreprenuership Forum, we strive to encourage and inspire entrepreneurship by providing a platform that lets students to question the world around them."
+mission-description: "Our mission is to encourage and inspire entrepreneurship by providing a platform for students to question the world around them. We are preparing students to make a difference by giving them the skills to address real-world problems through research, planning, and communication.
+"
 
 process:
   - title: Think

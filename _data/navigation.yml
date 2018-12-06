@@ -1,9 +1,9 @@
 navigation:
-  - title: "mission"
+  - title: "our mission"
     page-scroll: true
     link: "#mission"
 
-  - title: "process"
+  - title: "the process"
     page-scroll: true
     link: "#process"
 
