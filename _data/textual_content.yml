@@ -62,7 +62,7 @@ people-title: "our amazing team"
 people:
   - name: Cathy Cheng
     pic: girl-stock-photo
-    description: "Cathy is a senior at Andover High School. She is a member of the Andover Robotics Club and is a co-president of the Andover BioBuilder Club. Her team has published research in the Biotreks journal. In her free time, Cathy volunteers with kids and horses at the Ironstone Farms. She also works at 1st Vision, a machine vision business. In college, she plans on majoring in mechanical engineering."
+    description: "Cathy is a senior at <a href="https://www.aps1.net/302/Andover-High-School" alt="Andover High School" target="_blank">Andover High School</a>. She is a member of the Andover Robotics Club and is a co-president of the Andover BioBuilder Club. Her team has published research in the Biotreks journal. In her free time, Cathy volunteers with kids and horses at the Ironstone Farms. She also works at 1st Vision, a machine vision business. In college, she plans on majoring in mechanical engineering."
     
   - name: Ruiying Gao
     pic: girl-stock-photo
