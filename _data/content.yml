@@ -1,0 +1,59 @@
+site-tagline: "Reinvent Education"
+
+header-button-text: "Submit"
+header-button-link: "#contact"
+header-button-scroll: true
+header-button-open-in-new-tab: false # will not open in new tab if it is scrolling
+
+header-image: /img/lightbulb.jpg # make sure this starts with a slash if it is a local link
+# if no link is specified, it will default /img/header-bg.jpg
+
+mission-title: "Our Mission"
+mission-description: "Our mission is to encourage entrepreneurship by providing a platform for students to question the world around them. We are preparing students to make a difference by giving them the skills to address real-world problems through research, planning, design and communication.
+"
+process-title: "The Process"
+process-subtitle: "We encourage utilizing Design Thinking - a solution-based approach to solving problems."
+process:
+  - title: Think
+    description: What problem do you want to solve?
+    icon: fas fa-lightbulb  # See font awesome for more (https://fontawesome.com/icons?d=gallery&m=free)
+
+  - title: Design
+    description: Sketch and plan your solution.
+    icon: fas fa-pencil-ruler
+
+  - title: Prototype
+    description: Create a protoype.
+    icon: fa fa-hammer
+
+  - title: Present
+    description: Pitch your idea.
+    icon: fab fa-slideshare
+
+timeline-title: "Challenge Timeline"
+timeline-subtitle: "All the dates you need to know!"
+timeline:
+  - date: January 7<sup>th</sup>, 2019 # characters wrapped in <sup></sup> tags become superscript (small and above other text)
+    title: Challenge Launch
+    image: img/icon/rocket.png
+    description: "We will kick off the AEF Challeng with a Launch Party in the AHS Library (H-Block)!"
+
+  - date: February 12<sup>th</sup>, 2019
+    title: Preliminary Pitches Due
+    image: img/icon/calendar.png
+    description:  "<ol><li>Write your LEAN Business Plan</li><li>Prepare a Pitch/Speech Outline.</li><li>Upload your 5-minute pitch to YouTube</li><li>Submit your LEAN Business Plan, Speech Outline and link to video.</li></ol>"
+
+  - date: March 1<sup>st</sup>, 2019
+    title: Final Qualifiers Announced
+    image: img/icon/award.png
+    description: "Final Qualifiers will be notified by email."
+
+  - date: April 9<sup>th</sup>, 2019
+    title: Final Plan and Pitches Due
+    image: img/icon/calendar.png
+    description: "<ol><li>Write your Final Business Plan</li><li>Prepare a Pitch/Speech Outline.</li><li>Upload your 5-minute pitch to YouTube</li><li>Submit your Final Business Plan, Speech Outline and link to video.</li><li>Top 10 ideas are selected for Final Event.</li></ol>"
+
+  - date: May 3<sup>rd</sup>, 2019
+    title: Final Event
+    image: img/icon/medal.png
+    description: "The Final 10 groups will present their ideas - Open House style. There will also be an awards ceremony and guest speaker!"

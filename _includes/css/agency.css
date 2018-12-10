@@ -284,7 +284,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{% if site.data.textual_content.header-image %} {{ site.data.textual_content.header-image }} {% else %} /img/header-bg.jpg {% endif %} ');
+    background-image: url('{% if site.data.content.header-image %} {{ site.data.content.header-image }} {% else %} /img/header-bg.jpg {% endif %} ');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
