@@ -36,7 +36,7 @@ timeline:
   - date: January 7<sup>th</sup>, 2019 # characters wrapped in <sup></sup> tags become superscript (small and above other text)
     title: Challenge Launch
     image: img/icon/rocket.png
-    description: "<ul><li>Official Launch of the AEF!</li><li>Launch Party at AHS Library (H-Block)</li></ul>"
+    description: "We will kick off the AEF Challeng with a Launch Party in the AHS Library (H-Block)!"
 
   - date: February 12<sup>th</sup>, 2019
     title: Preliminary Pitches Due
