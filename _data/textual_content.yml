@@ -46,7 +46,7 @@ timeline:
   - date: March 1<sup>st</sup>, 2019
     title: Final Qualifiers Announced
     image: img/icon/award.png
-    description: "<ul><li>Final Qualifiers will be notified by email.</li></ul>"
+    description: "Final Qualifiers will be notified by email."
 
   - date: April 9<sup>th</sup>, 2019
     title: Final Plan and Pitches Due
@@ -56,7 +56,7 @@ timeline:
   - date: May 3<sup>rd</sup>, 2019
     title: Final Event
     image: img/icon/medal.png
-    description: "<ul><li>Opening and Guest Speaker</li><li>10 groups present their ideas - Open House style.</li><li>Top 3 groups pitch live</li><li>Awards ceremony</li></ul>"
+    description: "The Final 10 groups will present their ideas - Open House style. There will also be an awards ceremony and guest speaker!"
     
 people-title: "our amazing team" 
 people:
