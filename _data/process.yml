@@ -1,0 +1,18 @@
+title: "The Process"
+subtitle: "We encourage utilizing Design Thinking - a solution-based approach to solving problems."
+process:
+  - title: Think
+    description: What problem do you want to solve?
+    icon: fas fa-lightbulb  # See font awesome for more (https://fontawesome.com/icons?d=gallery&m=free)
+
+  - title: Plan
+    description: Sketch and plan your solution.
+    icon: fas fa-pencil-ruler
+
+  - title: Prototype
+    description: Create a protoype.
+    icon: fa fa-hammer
+
+  - title: Present
+    description: Pitch your idea.
+    icon: fab fa-slideshare

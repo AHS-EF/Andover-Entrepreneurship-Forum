@@ -3,13 +3,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ site.data.content.process-title }}</h2>
-                <h3 class="section-subheading text-muted">{{ site.data.content.process-subtitle }}</h3>
+                <h2 class="section-heading">{{ site.data.process.title }}</h2>
+                <h3 class="section-subheading text-muted">{{ site.data.process.subtitle }}</h3>
             </div>
         </div>
         <div class="row text-center">
-            {% for step in site.data.content.process %}
-            <div class="col-md-3">
+            {% for step in site.data.process.process %}
+            <div class="col-md-{{ 12 | divided_by: forloop.length }}">
                     <span class="process-icon fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="{{ step.icon }} fa-stack-1x fa-inverse"></i>

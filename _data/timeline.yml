@@ -1,27 +1,5 @@
-mission-title: "Our Mission"
-mission-description: "Our mission is to encourage entrepreneurship by providing a platform for students to question the world around them. We are preparing students to make a difference by giving them the skills to address real-world problems through research, planning, design and communication.
-"
-process-title: "The Process"
-process-subtitle: "We encourage utilizing Design Thinking - a solution-based approach to solving problems."
-process:
-  - title: Think
-    description: What problem do you want to solve?
-    icon: fas fa-lightbulb  # See font awesome for more (https://fontawesome.com/icons?d=gallery&m=free)
-
-  - title: Design
-    description: Sketch and plan your solution.
-    icon: fas fa-pencil-ruler
-
-  - title: Prototype
-    description: Create a protoype.
-    icon: fa fa-hammer
-
-  - title: Present
-    description: Pitch your idea.
-    icon: fab fa-slideshare
-
-timeline-title: "Challenge Timeline"
-timeline-subtitle: "All the dates you need to know!"
+title: "Challenge Timeline"
+subtitle: "All the dates you need to know!"
 timeline:
   - date: January 7<sup>th</sup>, 2019 # characters wrapped in <sup></sup> tags become superscript (small and above other text)
     title: Challenge Launch

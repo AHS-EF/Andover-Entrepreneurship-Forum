@@ -4,15 +4,15 @@
         
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ site.data.content.timeline-title }}</h2>
-                <h3 class="section-subheading text-muted">{{ site.data.content.timeline-subtitle }}</h3>
+                <h2 class="section-heading">{{ site.data.timeline.title }}</h2>
+                <h3 class="section-subheading text-muted">{{ site.data.timeline.subtitle }}</h3>
             </div>
         </div>
         
         <div class="row">
             <div class="col-lg-12">
                 <ul class="timeline">
-                    {% for event in site.data.content.timeline %}
+                    {% for event in site.data.timeline.timeline %}
                         {% assign indexModulo = forloop.index | modulo: 2 %}
                         <li class="{% if indexModulo == 0 %} {{ 'timeline-inverted' }} {% endif %}">
                             <div class="timeline-image" style="background-image: url('{{ event.image }}');">

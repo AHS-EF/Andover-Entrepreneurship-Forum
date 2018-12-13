@@ -1,15 +1,20 @@
 <!-- Mission Section -->
 <section id="mission" class="bg-light-gray" style="padding: 100px 0;">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ site.data.content.mission-title }}</h2>
+    {% for section in site.data.mission.sections %}
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ section.title }}</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">{{ section.description }}</p>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p class="large text-muted">{{ site.data.content.mission-description }}</p>
-            </div>
-        </div>
-    </div>
+        {% if forloop.last == false %}
+            <br /><br />
+        {% endif %}
+    {% endfor %}
 </section>
