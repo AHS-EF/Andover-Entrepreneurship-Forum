@@ -1,13 +1,3 @@
-site-tagline: "Reinvent Education"
-
-header-button-text: "Submit"
-header-button-link: "#contact"
-header-button-scroll: true
-header-button-open-in-new-tab: false # will not open in new tab if it is scrolling
-
-header-image: /img/lightbulb.jpg # make sure this starts with a slash if it is a local link
-# if no link is specified, it will default /img/header-bg.jpg
-
 mission-title: "Our Mission"
 mission-description: "Our mission is to encourage entrepreneurship by providing a platform for students to question the world around them. We are preparing students to make a difference by giving them the skills to address real-world problems through research, planning, design and communication.
 "

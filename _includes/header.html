@@ -3,13 +3,14 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">The AEF</a>
+            <a class="navbar-brand page-scroll" href="#page-top">{{ site.data.navigation.home-link-text }}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,8 +37,13 @@
     <div class="container">
         <div class="intro-text">
             <div class="intro-lead-in">{{ site.title }}</div>
-            <div class="intro-heading">{{ site.data.content.site-tagline }}</div>
-            <a href="{{ site.data.content.header-button-link }}" class="btn btn-xl {% if site.data.content.header-button-scroll %}page-scroll{% endif %}" style="transition: 0.25s all;" {% if site.data.content.header-button-open-in-new-tab %}target="_blank"{% endif %}>{{ site.data.content.header-button-text }}</a>
+            <div class="intro-heading">{{ site.data.header.site-tagline }}</div>
+            {% for button in site.data.header.buttons %}
+                <a href="{{ button.link }}"
+                   class="btn btn-xl {% if button.scroll %}page-scroll{% endif %}"
+                   style="transition: 0.25s all;" {% if button.open-in-new-tab %}target="_blank" {%
+                   endif %}>{{ button.text }}</a>
+            {% endfor %}
         </div>
     </div>
 </header>

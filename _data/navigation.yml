@@ -1,3 +1,5 @@
+home-link-text: "AEF" # The text that will go in the very leftmost link that scrolls the page to the top
+
 navigation:
   - title: "our mission"
     page-scroll: true
@@ -15,6 +17,6 @@ navigation:
     page-scroll: true
     link: "#team"
 
-  - title: "contact"
+  - title: "submit"
     page-scroll: true
-    link: "#contact"
+    link: "#submit"

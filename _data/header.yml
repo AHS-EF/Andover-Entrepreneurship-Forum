@@ -1,0 +1,10 @@
+site-tagline: "Reinvent Education"
+
+buttons:
+  - text: "Submit"
+    link: "#submit" # Use #id to link to a section on the page
+    scroll: true
+    open-in-new-tab: false # will not open in new tab if it is scrolling
+
+header-image: /img/lightbulb.jpg # make sure this starts with a slash if it is a local link
+# if no link is specified, it will default /img/header-bg.jpg
