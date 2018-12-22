@@ -1,0 +1,34 @@
+title: "Frequently Asked Questions"
+subtitle: "Lorem ipsum dolor sit amet consectetur."
+
+faq:
+  - question: "Who can participate in the Andover Entrepreneurship Forum?"
+    answer: "This competition is open to all Andover High School students. No experience is necessary!"
+
+  - question: "When is the Andover Entrepreneurship Forum?"
+    answer: "The official launch is during H2 on January 7th, 2019. During the launch, we will explain the competition in further detail, including the rules, judging, and how to submit ideas. <br /><br />Please see the <a class='page-scroll' href='#timeline'>challenge timeline</a> for more information."
+
+  - question: "How many people can be on a team?"
+    answer: "Teams can have up to 4 people, but participants may also choose to work independently."
+
+
+  - question: "Where will the forum be held?"
+    answer: "The event will be held in the AHS library."
+
+  - question: "Do I to be experienced in entrepreneurship to compete?"
+    answer: "No! It’s completely fine if you have no experience! This competition is designed for all students, regardless of their previous experience. To help first-timers, we will be offering workshops throughout the duration of the competition for anyone who wants to learn effective entrepreneurship strategies, so be sure to stop by if you need any help!"
+
+  - question: "How much does the competition cost?"
+    answer: "The Andover Entrepreneurship Forum is completely free to all participants! We will provide food at the event, and participants have the opportunity to win prizes of up to $_."
+
+  - question: "How would the competition affect my day to day schedule?"
+    answer: "It depends on how you plan to approach it. You can see the competition deadlines and requirements far in advance in the <a class='page-scroll' href='#timeline'>challenge timeline</a>, and they are scheduled in a way that should give all teams enough time to complete each task while also being able to manage school work and other responsibilities.  "
+
+  - question: "If I can’t make the launch, can I still participate?"
+    answer: "Decisions about participants who can’t make the launch will be made on a case by case basis. Please email _ about your specific situation."
+
+  - question: "Why should I participate?"
+    answer: "The Andover Entrepreneurship Forum serves as a great opportunity for AHS students to bring their ideas to our administration, and your idea could be put into effect! If that doesn’t entice you, we also offer cash prizes for the 1st, 2nd, and 3rd place winners."
+
+  - question: "If I have further questions, who should I contact?"
+    answer: "You can email _."

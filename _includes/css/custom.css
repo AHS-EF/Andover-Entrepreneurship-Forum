@@ -13,7 +13,7 @@
     margin-bottom: 25px;
     text-align: center;
     text-transform: none;
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 .team-member p {
@@ -28,7 +28,7 @@
     flex-flow: row wrap;
 }
 
-[class*="c-"], {
+[class*="c-"] {
     width: 100%;
 }
 
