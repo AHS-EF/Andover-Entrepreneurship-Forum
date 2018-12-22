@@ -36,6 +36,7 @@ a.active {
 }
 
 a {
+    transition: color 0.5s;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -374,6 +375,11 @@ section h3.section-subheading {
     margin: 0 0 15px;
 }
 
+.portfolio-link,
+.portfolio-link h4 {
+    text-decoration: none!important;
+}
+
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
@@ -392,6 +398,22 @@ section h3.section-subheading {
     background: rgba(254,209,54,.9); /* Fallback when no plugin support */
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
+
+.team-member-container {
+    transition: all 0.5s;
+    margin: 10px 0;
+}
+
+.team-member-container:hover {
+    opacity: 0.6;
+    background: lightgray;
+}
+
+.team-member-name {
+    text-align: center;
+    color: #{{ site.data.template.color.secondary-dark }}!important;
+}
+
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;

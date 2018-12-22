@@ -1,37 +1,52 @@
 <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ site.data.team.title }}</h2>
-                    <h3 class="section-subheading text-muted">{{ site.data.team.subtitle }}</h3>
-                </div>
-            </div>
-            <div class="row">
-                {% for member in site.data.team.team %}
-                <div style="width: 66.66%;" class="center-block">
-                    <div class="team-member">
-                        <img src="img/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="{{ member.name }}">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.description }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">{{ site.data.team.bottom-text }}</p>
-                </div>
+<section id="team" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ site.data.team.title }}</h2>
+                <h3 class="section-subheading text-muted">{{ site.data.team.subtitle }}</h3>
             </div>
         </div>
-    </section>
+        <div class="row">
+            {% for member in site.data.team.team %}
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                {% assign id = forloop.index %}
+                <a href="#portfolioModal{{ id }}" class="portfolio-link" data-toggle="modal">
+                    <div class="team-member-container" {% unless id > 3 %}style="margin-top: 0;"{% endunless %}>
+                        <!--<div class="portfolio-hover">-->
+                        <!--<div class="portfolio-hover-content">-->
+                        <!--<i class="fa fa-plus fa-3x"></i>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <img src="{{ member.pic }}" class="img-responsive img-circle img-centered"
+                             alt="{{ member.name }}">
+                        <h4 class="team-member-name" style="text-decoration: none!important;">{{ member.name }}</h4>
+                        <!--<ul class="list-inline social-buttons">-->
+                        <!--{% for network in member.social %}-->
+                        <!--<li>-->
+                        <!--<a href="{{ network.url }}">-->
+                        <!--<i class="fa fa-{{ network.title }}"></i>-->
+                        <!--</a>-->
+                        <!--</li>-->
+                        <!--{% endfor %}-->
+                        <!--</ul>-->
+                    </div>
+                </a>
+            </div>
+            {% assign title = member.name %}
+            {% assign img = member.pic %}
+            {% assign alt = member.name %}
+            {% assign description = member.description %}
+            {% include modal.html %}
+            {% endfor %}
+        </div>
+
+        <br>
+        <hr>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p class="large text-muted">{{ site.data.team.bottom-text }}</p>
+            </div>
+        </div>
+    </div>
+</section>
