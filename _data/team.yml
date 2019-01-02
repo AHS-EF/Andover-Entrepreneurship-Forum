@@ -1,18 +1,18 @@
 title: "Our Amazing Team"
-subtitle: "Lorem ipsum dolor sit amet consectetur."
-bottom-text: "Lorem ipsum dolor sit amet consectetur."
+subtitle: "Click on a team member to learn more about them."
+bottom-text: ""
 
 team:
   - name: Cathy Cheng
-    pic: img/girl-stock-photo.jpg
+    pic: img/CathyCheng.jpg
     description: "Cathy is a senior at <a href='https://www.aps1.net/302/Andover-High-School' target='_blank'>Andover High School</a>. She is a member of the Andover Robotics Club and is a co-president of the Andover BioBuilder Club. Her team has published research in the Biotreks journal. In her free time, Cathy volunteers with kids and horses at the Ironstone Farms. She also works at 1st Vision, a machine vision business. In college, she plans on majoring in mechanical engineering."
 
   - name: Ruiying Gao
-    pic: img/girl-stock-photo.jpg
+    pic: img/RuiyingGao.jpg
     description: "Ruiying is a senior at <a href='https://www.aps1.net/302/Andover-High-School' target='_blank'>Andover High School</a>. She is highly active in STEM activities. She is a member of the <a href='https://www.aps1.net/302/Andover-High-School' target='_blank'>Andover High School</a> Robotics Club on Team Hailstorm. She coaches a middle robotics team at the Andover Youth Center. At the youth center, she is a part of STEM projects like the weeklong robotics course during February and April break, the creation of a summer course, and trying to make having an Andover FRC team a reality. She plans to have a career in the STEM field."
 
   - name: Michael Garofalo
-    pic: img/boy-stock-photo.jpg
+    pic: img/MichaelGarofalo.jpg
     description: "Michael Garofalo is a junior at <a href='https://www.aps1.net/302/Andover-High-School' target='_blank'>Andover High School</a>.  He participates in a lot of activities at <a href='https://www.aps1.net/302/Andover-High-School' target='_blank'>Andover High School</a>, such as football, entrepreneurship club, current events club, and deca club.  Outside of school, he enjoys playing sports, playing video games, volunteering and helps his grandfather with his taxi medallions and finding real estate for him. He plans to major in management when he goes to college."
 
   - name: Daniel Ivanovich
@@ -24,7 +24,7 @@ team:
     description: "Meera is a sophomore at <a href='https://www.aps1.net/302/Andover-High-School' target='_blank'>Andover High School</a>. Along with starting the Andover Entrepreneurship Forum, she is the Treasurer of Student Government and co-founded the Girls’ Coding Club. She enjoys archery and loves to bike in her free time."
 
   - name: Jeremy Morgenstern
-    pic: img/boy-stock-photo.jpg
+    pic: img/JeremyMorgenstern.jpg
     description: "Jeremy is a senior at <a href='https://www.aps1.net/302/Andover-High-School' target='_blank'>Andover High School</a>. He is involved with multiple activities at AHS, including Entrepreneurship Club, Student Ambassadors, and lacrosse, as well as being the President and Co-founder of Current Events Club. Jeremy is interested in studying finance and accounting in college. Outside of school, he enjoys volunteering with children, fishing, and playing sports."
 
   - name: Michael Peng
@@ -36,7 +36,7 @@ team:
     description: "Lekhya is a senior at <a href='https://www.aps1.net/302/Andover-High-School' target='_blank'>Andover High School</a>. Outside of Andover Entrepreneurship, she is involved in science team, math team, computer fusion, philosophy club, recycling club, and environmental club. She also plays piano and can often be found browsing the school library or reading random articles online. She plans to pursue a career in medicine."
 
   - name: Adiba Ubaidu
-    pic: img/girl-stock-photo.jpg
+    pic: img/AdibaUbaidu.jpg
     description: "Adiba is a senior at <a href='https://www.aps1.net/302/Andover-High-School' target='_blank'>Andover High School</a>. She has been involved in Entrepreneurship Club since sophomore year. She is a member of the Andover Robotics Club and Andover BioBuilder Club. Outside of clubs, she spends her time tutoring elementary school students and volunteering at a local soup kitchen. In the future, she hopes to pursue a career in biochemistry and is especially interested in forensics."
 
 
