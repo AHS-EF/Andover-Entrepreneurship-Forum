@@ -1,7 +1,7 @@
 title: "The Process"
 subtitle: "We encourage utilizing <a href='https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process' target='_blank'>Design Thinking</a> - a solution-based approach to solving problems."
 process:
-  - title: Think
+  - title: <a href=Think
     description: What problem do you want to solve?
     icon: fas fa-lightbulb  # See font awesome for more (https://fontawesome.com/icons?d=gallery&m=free)
 
