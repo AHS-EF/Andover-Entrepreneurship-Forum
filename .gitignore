@@ -5,3 +5,4 @@ _site
 node_modules/
 .clasp.json
 .vscode/
+.bundle/config

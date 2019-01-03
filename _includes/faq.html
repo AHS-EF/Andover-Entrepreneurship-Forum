@@ -10,11 +10,11 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#faq-accordion" href="#collapse{{ forloop.index }}">{{
+                            <a data-toggle="collapse" data-parent="#faq-accordion" href="#collapse{{ forloop.index | plus: 4 }}">{{
                                 question.question }}</a>
                         </h4>
                     </div>
-                    <div id="collapse{{ forloop.index }}" class="panel-collapse collapse">
+                    <div id="collapse{{ forloop.index | plus: 4 }}" class="panel-collapse collapse">
                         <div class="panel-body">{{ question.answer }}</div>
                     </div>
                 </div>
