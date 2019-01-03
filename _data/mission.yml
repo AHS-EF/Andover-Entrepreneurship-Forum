@@ -1,5 +1,5 @@
 sections:
-  - title: "Our Mission"
+  - title: "<div class='underline'>Our</div> Mission"
     description: "We strive to encourage and inspire entrepreneurship by providing a platform on which students may question the world around them. We prepare students to make a difference by giving them the skills they need to address real-world problems through research, planning, and communication."
-  - title: "Your Mission"
-    description: "Two words: Reinvent Education. Our society, technology, and ideas have changed immensely over the past centuries. It’s time that our education does too. Making a difference begins with an idea, and there is no better time to start than now."
+  - title: "<div class='underline'>Your</div> Mission"
+    description: "<p class='large text-muted'>Two words: Reinvent Education. Our society, technology, and ideas have changed immensely over the past centuries. It’s time that our education does too. Making a difference begins with an idea, and there is no better time to start than now.</p><p class='large text-muted'>In our inaugural year, participants are challenged to develop solutions to problems in the Education industry.</p><p class='large text-muted'>Possible solution tracks include:</p><ul class='large text-muted'><li>Nontraditional education (vocational, internships, etc. </li><li>High School Curriculum (pathways and tracks, new requirements, community service)</li><li>Personalizing education (student/teacher feedback, evidence-based teaching)</li></ul>"

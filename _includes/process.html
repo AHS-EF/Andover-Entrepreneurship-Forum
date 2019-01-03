@@ -1,18 +1,5 @@
 <!-- Services Section -->
 <section id="process" style="padding: 100px 0;">
-    <div class="container" style="max-width: 90%;">
-        <div class="row">
-            <div class="panel-primary">
-                <h5>Participants can pick a problem to solve in the Education industry.</h5>
-                <p>Possible solution tracks include:</p>
-                <ul>
-                    <li>Nontraditional education (vocational, internships, etc. </li>
-                    <li>High School Curriculum (pathways, requirements, </li>
-                    <li>Personalizing education (student/teacher feedback, evidence-based teaching)
-                </ul>
-            </div>
-        </div>
-    </div>
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -27,50 +14,81 @@
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="{{ step.icon }} fa-stack-1x fa-inverse"></i>
                 </span>
-                <h4 class="service-heading">{{ step.title }}</h4>
+                <h1 class="service-heading">{{ step.title }}</h1>
                 <p class="text-muted">{{ step.description }}</p>
             </div>
             {% endfor %}
         </div>
     </div>
+    
+    
+    <!-- THINK Modal -->
+    <div id="think-modal" class="modal fade portfolio-modal" role="dialog">
+       
+        <div class="modal-content">
+             
+            <!-- Modal content-->  
+            <div class="modal-header"> 
+                <button type="button" class="btn btn-info close-modal" data-dismiss="modal" aria label="Close">&times;</button>  
+                <h1 class="modal-title text-left"><i class="fas fa-lightbulb fa-3x"></i> Think</h1>
+            </div>
+            <div class="modal-body large text-muted text-left">
+                <p>In the <a href="https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process" target="_blank">Design Thinking Process</a>, this phase represents "Empathize" and "Define" (the Problem).</p>
+                <h4>Empathize</h4>
+                <p>To really understand the problem, you need to talk to people that are affected by the problem. In this case, it will be Andover High School students - that is your target market.</p>
+                <p>To <span class="bold">empathize</span> with your target market, participants need to engage, observe and <a href="/docs/StanfordDSchoolDesignThinkingInterviewSheets.pdf" target="_blank">interview</a> a target customer (an ideal person in their target market). The information gathered is then organized and used to help define the problem.</p>
 
-    <div class="container" style="max-width: 50%;">
+                <h4>Define (the Problem)</h4>
+                <p>The goal of the Define mode is to craft a meaningful and actionable problem statement. This is otherwise known as a the POV (point-of-view) of your potential target market.</p>
+                <p>From the POV of individuals that are affected by the problem, your job is to come of with a clear and specific problem statement.</p>
+                <p>During your research, you might uncover some insights and problems, however, it is critical to "frame the right problem to create the right solution."</p>
 
-        <div class="panel-group">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h1 class="panel-title">
-                        <a data-toggle="collapse" href="#collapse1">Think</a>
-                    </h1>
-                </div>
-                <div id="collapse1" class="panel-collapse collapse">
-                    <div class="panel-body"><p>This part of the process is devoted to defining the problem. This could include collecting additional data through interviews to refine the problem statement.</p></div>
-                    <div class="panel-footer">Panel Footer</div>
-                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info close-modal-b" data-dismiss="modal" aria label="Close">&times;</button>
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="/docs/StanfordDSchoolDesignThinking.pdf" target="_blank">The Stanford D.School's Design Thinking Guide.</a></li>
+                    <li><a href="https://www.interaction-design.org/literature/topics/ideation" target="_blank">Ideation techniques</a></li>
+                </ul> 
             </div>
         </div>
     </div>
-
-
-
-    <!-- Modal -->
-    <div id="think-modal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Modal Header</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Some text in the modal.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+    
+    <!-- PLAN Modal -->
+    <div id="plan-modal" class="modal fade portfolio-modal" role="dialog">
+       
+        <div class="modal-content">
+             
+            <!-- Modal content-->  
+            <div class="modal-header"> 
+                <button type="button" class="btn btn-info close-modal" data-dismiss="modal" aria label="Close">&times;</button>  
+                <h1 class="modal-title text-left"><i class="fas fa-pencil-ruler fa-3x"></i> Plan</h1>
             </div>
-
+            <div class="modal-body large text-muted text-left">
+                <p>In the <a href="https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process" target="_blank">Design Thinking Process</a>, this phase represents "Ideate", otherwise known as brainstorming.</p>
+                <h4>Ideate - Brainstorm</h4>
+                <p>Once the participant develops a clear and specific problem statement, it is time to brainstorm ideas.<p>
+                <p>A recommended transition is to create of list of "how might we...?" brainstorming topics that flow from your problem statement.</p>
+                <p>There are hundreds of brainstorming or <a href="https://www.interaction-design.org/literature/topics/ideation" target="_blank">ideation</a> techniques. One we use at AHS is to sketch out as many ideas as possible within a certain timeframe, perhaps 5 minutes.</p>
+                <p>The goal is to generate as many ideas as possible, to come up with a "range of possibilities."</p>
+                <p>If you are working on teams, you can do this exercise on your own then share and merge your ideas until you come up with one grand solution.</p>
+                <p>And that is the end-goal, brainstorm from your problem statement until you come up with a unique and specific solution.</p>
+                
+                <p>The information above has been modified from <a href="/docs/StanfordDSchoolDesignThinking.pdf" target="_blank">The Stanford D.School's Design Thinking Guide.</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info close-modal-b" data-dismiss="modal" aria label="Close">&times;</button>
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="/docs/StanfordDSchoolDesignThinking.pdf" target="_blank">The Stanford D.School's Design Thinking Guide.</a></li>
+                    <li><a href="https://www.interaction-design.org/literature/topics/ideation" target="_blank">Ideation techniques</a></li>
+                </ul> 
+                 
+            </div>
         </div>
     </div>
+    
+    
+    
 </section>

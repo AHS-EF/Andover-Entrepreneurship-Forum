@@ -1,11 +1,11 @@
 title: "The Process"
 subtitle: "We encourage utilizing <a href='https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process' target='_blank'>Design Thinking</a> - a solution-based approach to solving problems."
 process:
-  - title: <a href=Think
+  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#think-modal">Think</a>
     description: What problem do you want to solve?
     icon: fas fa-lightbulb  # See font awesome for more (https://fontawesome.com/icons?d=gallery&m=free)
 
-  - title: Plan
+  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#plan-modal">Plan</a>
     description: Sketch and plan your solution.
     icon: fas fa-pencil-ruler
 

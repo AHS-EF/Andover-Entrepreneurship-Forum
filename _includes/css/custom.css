@@ -24,3 +24,59 @@ ul li {
     font-size: 14px;
     line-height: 1.75;
 }
+
+.btn-process {
+    color:#ffffff;
+    font-weight: bold;
+    background-color: #063578;
+    border-color: #063578;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.portfolio-modal .modal-content {
+    padding: 5px;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: #063578;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal-b {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: #063578;
+    cursor: pointer;
+}
+
+.modal-footer {
+    padding: 20px;
+    text-align: left;
+    border-top: 1px solid #e5e5e5;
+}
+
+p {
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 0;
+}
