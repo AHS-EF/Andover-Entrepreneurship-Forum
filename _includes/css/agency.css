@@ -850,6 +850,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .close-modal {
+    z-index: 2000;
     position: absolute;
     top: 25px;
     right: 25px;
@@ -860,7 +861,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .close-modal:hover {
-    opacity: .3;
+    opacity: .5;
 }
 
 .portfolio-modal .close-modal .lr {
