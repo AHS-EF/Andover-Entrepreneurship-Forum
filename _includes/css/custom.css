@@ -1,3 +1,4 @@
+
 .team-member {
     margin-bottom: 50px;
     text-align: left;
@@ -37,7 +38,8 @@ ul li {
 }
 
 .portfolio-modal .modal-content {
-    padding: 5px;
+    padding: 0;
+    margin: 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -79,4 +81,116 @@ p {
 
 .portfolio-modal .modal-content p {
     margin-bottom: 0;
+}
+
+.think-bg-img {
+    /* The image used */
+  background-image: url("/img/think-bg.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modal-title {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-text p {
+    font-size: 2.75vh;
+    color: #444;
+    padding: 1.25vh;
+}
+
+.text-muted p {
+    font-size: 2.75vh;
+    color: #444;
+    padding: 1.25vh;
+}
+
+.text-muted {
+    font-size: 2.75vh;
+    color: #444;
+    padding: 1.25vh;
+}
+
+.timeline-body .text-muted p {
+    font-size: 2.75vh;
+    color: #444;
+    padding: 1.25vh;
+}
+
+.text-muted ul li, ol li {
+    font-size: 2.75vh;
+    color: #444;
+    padding: 1.25vh;
+}
+
+.modal-text p, ul li, ol li {
+    font-size: 2.75vh;
+    color: #444;
+    padding: 1.25vh;
+}
+
+.modal-heading {
+    font-size: 4.5vh;
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(6, 53, 120), rgba(255,0,0,0)); 
+    padding: 2%;
+    border-radius: 4px;
+}
+
+.modal-heading-2 {
+    font-size: 3.5vh;
+    display: inline-block;
+    color: #fff;
+    background-color: #f0c624; 
+    padding: 2%;
+    border-radius: 4px;
+}
+
+.panel {
+    margin: 2% 5% 2% 5%;
+}
+
+.panel-body {
+    padding: 3%;
+}
+
+.portfolio-modal {
+    margin: 0;
+    padding: 0;
+}
+
+/* LINKS */
+/* unvisited link */
+p a:link {
+    color: #063578;
+    background-color: #ffeca5;
+    text-decoration: none;
+}
+
+/* visited link */
+p a:visited {
+    color: #063578;
+    background-color: #ffeca5;
+    text-decoration: none;
+}
+
+/* mouse over link */
+p a:hover {
+    color: #063578;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* selected link */
+p a:active {
+    color: #063578;
+    background-color: #ffeca5;
+    text-decoration: none;
 }
