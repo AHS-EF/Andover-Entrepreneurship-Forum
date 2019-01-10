@@ -131,7 +131,6 @@ p {
 }
 
 .modal-text p, ul li, ol li {
-    font-size: 2.75vh;
     color: #444;
     padding: 1.25vh;
 }
@@ -193,4 +192,8 @@ p a:active {
     color: #063578;
     background-color: #ffeca5;
     text-decoration: none;
+}
+
+.team-member-container img.img-responsive {
+    max-width: 50%;
 }
