@@ -197,3 +197,8 @@ p a:active {
 .team-member-container img.img-responsive {
     max-width: 50%;
 }
+
+.modal-body img.img-responsive.img-centered {
+    max-width: 200px;
+    height: auto;
+}
