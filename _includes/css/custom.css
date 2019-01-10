@@ -171,6 +171,8 @@ p a:link {
     color: #063578;
     background-color: #ffeca5;
     text-decoration: none;
+    transition: 0.5s all;
+    display: inline-block;
 }
 
 /* visited link */
@@ -184,7 +186,20 @@ p a:visited {
 p a:hover {
     color: #063578;
     background-color: transparent;
-    text-decoration: underline;
+}
+
+p a:after {
+    content: '';
+    width: 0;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 0.5s all;
+    margin-top: -10px;
+}
+
+p a:hover:after {
+    width: 100%;
 }
 
 /* selected link */
@@ -201,4 +216,8 @@ p a:active {
 .modal-body img.img-responsive.img-centered {
     max-width: 200px;
     height: auto;
+}
+
+.close-modal {
+    transition: 0.5s all
 }
