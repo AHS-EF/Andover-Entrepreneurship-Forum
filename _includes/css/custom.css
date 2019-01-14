@@ -373,6 +373,6 @@ p a:active {
 }
 
 .modal-open .modal {
-    overflow-x: auto;
-    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow-y: visible;
 }
