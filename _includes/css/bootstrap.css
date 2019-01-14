@@ -6235,7 +6235,10 @@ button.close {
     bottom:0;
     left:0;
     z-index:1050;
+    /*
     -webkit-overflow-scrolling:touch;
+    not fully supported
+    */
     outline:0
 }
 .modal.fade .modal-dialog {

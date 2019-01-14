@@ -376,3 +376,15 @@ p a:active {
     overflow-x: hidden;
     overflow-y: visible;
 }
+
+.modal {
+   overflow-x: hidden;
+    overflow-y: visible; 
+}
+
+.modal-open {
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+
