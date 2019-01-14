@@ -372,19 +372,9 @@ p a:active {
     height: 100%; 
 }
 
-.modal-open .modal {
-    overflow-x: hidden;
-    overflow-y: visible;
-}
-
 .modal {
-   overflow-x: hidden;
-    overflow-y: visible; 
+   overflow: auto;
 }
 
-.modal-open {
-    overflow-x: hidden;
-    overflow-y: visible;
-}
 
 
