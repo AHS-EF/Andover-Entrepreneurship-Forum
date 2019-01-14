@@ -16,7 +16,7 @@ team:
     description: "Michael Garofalo is a junior at <a href='https://www.aps1.net/302/Andover-High-School' target='_blank'>Andover High School</a>.  He participates in a lot of activities at <a href='https://www.aps1.net/302/Andover-High-School' target='_blank'>Andover High School</a>, such as football, entrepreneurship club, current events club, and deca club.  Outside of school, he enjoys playing sports, playing video games, volunteering and helps his grandfather with his taxi medallions and finding real estate for him. He plans to major in management when he goes to college."
 
   - name: Daniel Ivanovich
-    pic: img/boy-stock-photo.jpg
+    pic: img/DanielIvanovich.jpg
     description: "Daniel Ivanovich is a sophomore at <a href='https://www.aps1.net/302/Andover-High-School' target='_blank'>Andover High School</a>. A full stack developer and a long-time fan of <em>Shark Tank</em>, he is the lead designer of this site. He is also the lead autonomous programmer for Thunder, one of the Andover Robotics Club's teams, where he also spends time modeling and printing custom 3D parts. Outside of school, he enjoys skiing, playing soccer, running, and sleeping for extended periods of time. In college, Daniel plans to major in computer science and electrical engineering."
 
   - name: Meera Kumar
