@@ -4,7 +4,7 @@ timeline:
   - date: January 7<sup>th</sup>, 2019 # characters wrapped in <sup></sup> tags become superscript (small and above other text)
     title: Challenge Launch
     image: img/icon/rocket.png
-    description: "<p class='text-muted'>Launch Party in the AHS Library during H-Block!</p>"
+    description: "<p class='large text-muted'>Launch Party in the AHS Library during H-Block!</p>"
 
   - date: February 12<sup>th</sup>, 2019
     title: Preliminary Pitches Due
@@ -14,7 +14,7 @@ timeline:
   - date: March 1<sup>st</sup>, 2019
     title: Final Qualifiers Announced
     image: img/icon/award.png
-    description: "<p class='text-muted'>Final Qualifiers will be notified by email.</p>"
+    description: "<p class='large text-muted'>Final Qualifiers will be notified by email.</p>"
 
   - date: April 9<sup>th</sup>, 2019
     title: Final Plan and Pitches Due
@@ -24,4 +24,4 @@ timeline:
   - date: May 3<sup>rd</sup>, 2019
     title: Final Event
     image: img/icon/medal.png
-    description: "<p class='text-muted'>The Final 10 groups will present their ideas - Open House style. There will also be an awards ceremony and guest speaker!</p>"
+    description: "<p class='large text-muted'>The Final 10 groups will present their ideas - Open House style. There will also be an awards ceremony and guest speaker!</p>"
