@@ -373,7 +373,11 @@ p a:active {
 }
 
 .modal {
-   overflow: auto;
+   overflow: visible;
+}
+
+.modal-open {
+    overflow: visible;
 }
 
 
