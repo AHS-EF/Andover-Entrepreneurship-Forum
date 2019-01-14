@@ -371,3 +371,7 @@ p a:active {
     width: 100%; 
     height: 100%; 
 }
+
+.modal-open .modal {
+    overflow: auto;
+}
