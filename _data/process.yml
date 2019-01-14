@@ -1,18 +1,14 @@
 title: "The Process"
-subtitle: "We encourage utilizing <a href='https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process' target='_blank'>Design Thinking</a> - a solution-based approach to solving problems."
+subtitle: "We encourage utilizing <a href='https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process' target='_blank'>Design Thinking</a> - a solution-based approach to solving problems:"
 process:
-  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#">Think</a>
-    description: Define the problem.
-    icon: fas fa-lightbulb  # See font awesome for more (https://fontawesome.com/icons?d=gallery&m=free)
+  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#hear">Hear</a>
+    description: Empathize and Define.
+    icon: fas fa-users  # See font awesome for more (https://fontawesome.com/icons?d=gallery&m=free)
 
-  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#">Plan</a>
-    description: Sketch and plan your solution.
-    icon: fas fa-pencil-ruler
-
-  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#">Prototype</a>
-    description: Create a protoype.
+  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#create">Create</a>
+    description: Brainstorm and Prototype.
     icon: fa fa-hammer
 
-  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#">Present</a>
-    description: Pitch your idea.
+  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#deliver">Deliver</a>
+    description: Pitch and Plan.
     icon: fab fa-slideshare
