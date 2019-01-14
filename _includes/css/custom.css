@@ -373,5 +373,6 @@ p a:active {
 }
 
 .modal-open .modal {
-    overflow: auto;
+    overflow-x: auto;
+    overflow-y: scroll;
 }
