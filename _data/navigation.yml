@@ -8,14 +8,14 @@ navigation: # all titles get transformed into full-uppercase, so capitalization 
   - title: "the process"
     page-scroll: true
     link: "#process"
+    
+  - title: "timeline"
+    page-scroll: true
+    link: "#timeline"
 
   - title: "faq"
     page-scroll: true
     link: "#faq"
-
-  - title: "timeline"
-    page-scroll: true
-    link: "#timeline"
 
   - title: "team"
     page-scroll: true
