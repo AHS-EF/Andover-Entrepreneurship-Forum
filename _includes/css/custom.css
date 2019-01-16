@@ -96,6 +96,19 @@ p {
   background-size: cover;
 }
 
+.brainstorm-bg-img {
+    /* The image used */
+  background-image: url("/img/brainstorm-bg.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .bricks-bg-img {
     /* The image used */
   background-image: url("/img/bricks-bg.jpg");
@@ -115,7 +128,9 @@ p {
 }
 
 .modal-header h1 {
-    font-size: 45px;
+    font-size: 6vw;
+    font-stretch: extra-expanded;
+    font-size: 6.5vh;
 }
 
 .modal-heading {
@@ -378,6 +393,13 @@ p a:active {
 
 .modal-open {
     overflow: visible;
+}
+
+figure {
+    font-size: 9px;
+    color: #444;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 
