@@ -1,4 +1,6 @@
-
+body {
+    color: #444 !important;
+}
 .team-member {
     margin-bottom: 50px;
     text-align: left;
@@ -50,20 +52,20 @@ ul li {
 
 .portfolio-modal .close-modal {
     position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 50px;
-    height: 50px;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
     background-color: #063578;
     cursor: pointer;
 }
 
 .portfolio-modal .close-modal-b {
     position: absolute;
-    bottom: 25px;
-    right: 25px;
-    width: 50px;
-    height: 50px;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
     background-color: #063578;
     cursor: pointer;
 }
@@ -74,10 +76,7 @@ ul li {
     border-top: 1px solid #e5e5e5;
 }
 
-p {
-    font-size: 14px;
-    line-height: 2.5;
-}
+
 
 .portfolio-modal .modal-content p {
     margin-bottom: 0;
@@ -124,28 +123,32 @@ p {
 
 /* TEXT */
 .modal-title {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-header h1 {
-    font-size: 6vw;
-    font-stretch: extra-expanded;
-    font-size: 6.5vh;
+    font-size: 8vw;
+}
+
+.modal-header i {
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-heading {
     font-size: 38px;
     color: #fff;
-    background-image: linear-gradient(to right, rgb(6, 53, 120), rgba(255,0,0,0)); 
-    padding: 3%;
+    background-color: #063578;
+    display: inline-block;
+    padding: 1% 2%;
     border-radius: 4px;
+    margin-top: 5%;
 }
 
 .modal-heading-2 {
-    font-size: 30px;
-    color: #fff;
-    background-image: linear-gradient(to right, rgb(240, 198, 36), rgba(255,0,0,0)); 
-    padding: 1%;
+    font-size: 28px;
+    color: #063578;
+    display: block; 
+    padding: 1% 2%;
     border-radius: 4px;
 }
 
@@ -170,7 +173,12 @@ p {
 p  {
     font-size: 21px;
     color: #444;
+    line-height: 2.5;
     padding: 1%;
+}
+
+section, section .container {
+    padding: 5%;
 }
 
 section ul, .modal-footer ul {
@@ -350,13 +358,46 @@ p a:active {
     border-bottom: solid 1px #afafaf !important;
 }
 
+/* LINKS */
+/* unvisited link */
+.tab-pane ul li a:link {
+    color: #063578 !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+    border-bottom: solid 1px #afafaf !important;
+}
+
+/* visited link */
+.tab-pane ul li a:visited {
+    color: #063578 !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+    border-bottom: solid 1px #afafaf !important;
+}
+
+/* mouse over link */
+.tab-pane ul li a:hover {
+    color: #063578 !important;
+    background-color: #ffeca5 !important;
+    text-decoration: none !important;
+    border-bottom: solid 1px #afafaf !important;
+}
+
+/* selected link */
+.tab-pane ul li a:active {
+    color: #063578 !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+    border-bottom: solid 1px #afafaf !important;
+}
+
 .panel-body>.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
     color: #fff;
-    background-color: #2B538C; 
+    background-color: #063578; 
     border: 1px solid #ecf0f1;
     border-bottom-color: transparent;
     cursor: default;
-    font-size: 3.5vh;
+    font-size: 21px;
 }
 
 .panel-body>.nav-tabs>li>a {
@@ -364,7 +405,7 @@ p a:active {
     margin-right: 2px;
     line-height: 1.42857143;
     border: 1px solid transparent;
-    font-size: 3.5vh;
+    font-size: 21px;
 }
 
 .tab-pane .panel-default {
@@ -402,5 +443,15 @@ figure {
     padding-bottom: 20px;
 }
 
+.modal-footer {
+    border-top: none;
+}
 
+.panel-group .panel-heading+.panel-collapse>.panel-body p, .panel-body ul li, .panel-body ol li {
+    font-size: 17px;
+    line-height: 2;
+}
 
+.panel-title {
+    font-size: 21px;
+}

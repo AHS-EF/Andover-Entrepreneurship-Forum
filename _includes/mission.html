@@ -1,6 +1,7 @@
 <!-- Mission Section -->
-<section id="mission" class="bg-light-gray" style="padding: 100px 0;">
+<section id="mission" class="bg-light-gray">
     {% for section in site.data.mission.sections %}
+    
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -14,7 +15,7 @@
             </div>
         </div>
         {% if forloop.last == false %}
-            <br /><br /><hr><br /><br />
+            
         {% endif %}
     {% endfor %}
 </section>

@@ -1,5 +1,5 @@
 title: "The Process"
-subtitle: "We encourage utilizing <a href='https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process' target='_blank'>Design Thinking</a> - a solution-based approach to solving problems:"
+subtitle: "We encourage utilizing <a href='https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process' target='_blank'>Design Thinking</a> - a human-centered design approach to solving problems:"
 process:
   - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#hear">Hear</a>
     description: Empathize and Define.
