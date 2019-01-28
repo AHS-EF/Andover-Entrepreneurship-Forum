@@ -9,6 +9,6 @@ process:
     description: Brainstorm and Prototype.
     icon: fa fa-hammer
 
-  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#deliver">Deliver</a>
+  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#test">Deliver</a>
     description: Pitch and Plan.
     icon: fab fa-slideshare

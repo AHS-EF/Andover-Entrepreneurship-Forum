@@ -327,7 +327,7 @@ p a:active {
 
 /* LINKS */
 /* unvisited link */
-#resources .panel .panel-body ul li a:link {
+.panel .panel-body ul li a:link {
     color: #063578 !important;
     background-color: transparent !important;
     text-decoration: none !important;
@@ -335,7 +335,7 @@ p a:active {
 }
 
 /* visited link */
-#resources .panel .panel-body ul li a:visited {
+.panel .panel-body ul li a:visited {
     color: #063578 !important;
     background-color: transparent !important;
     text-decoration: none !important;
@@ -343,7 +343,7 @@ p a:active {
 }
 
 /* mouse over link */
-#resources .panel .panel-body ul li a:hover {
+.panel .panel-body ul li a:hover {
     color: #063578 !important;
     background-color: #ffeca5 !important;
     text-decoration: none !important;
@@ -351,7 +351,7 @@ p a:active {
 }
 
 /* selected link */
-#resources .panel .panel-body ul li a:active {
+.panel .panel-body ul li a:active {
     color: #063578 !important;
     background-color: transparent !important;
     text-decoration: none !important;
@@ -397,7 +397,7 @@ p a:active {
     border: 1px solid #ecf0f1;
     border-bottom-color: transparent;
     cursor: default;
-    font-size: 21px;
+    font-size: 18px;
 }
 
 .panel-body>.nav-tabs>li>a {
@@ -405,7 +405,7 @@ p a:active {
     margin-right: 2px;
     line-height: 1.42857143;
     border: 1px solid transparent;
-    font-size: 21px;
+    font-size: 18px;
 }
 
 .tab-pane .panel-default {
@@ -447,8 +447,8 @@ figure {
     border-top: none;
 }
 
-.panel-group .panel-heading+.panel-collapse>.panel-body p, .panel-body ul li, .panel-body ol li {
-    font-size: 17px;
+.panel-body p, .panel-body ul li, .panel-body ol li {
+    font-size: 18px;
     line-height: 2;
 }
 
