@@ -455,3 +455,19 @@ figure {
 .panel-title {
     font-size: 21px;
 }
+
+/*
+.nav-tabs .active {
+    color: #fff;
+    background-color: #063578;
+}
+
+.panel-body>.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #fff;
+    background-color: #063578;
+    border: none;
+    border-bottom-color: transparent;
+    cursor: default;
+    font-size: 18px;
+}
+*/
