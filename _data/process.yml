@@ -1,14 +1,14 @@
 title: "The Process"
 subtitle: "We encourage utilizing <a href='https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process' target='_blank'>Design Thinking</a> - a human-centered design approach to solving problems:"
 process:
-  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#hear">Hear</a>
+  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#hear">Hear</button>
     description: Empathize and Define.
     icon: fas fa-users  # See font awesome for more (https://fontawesome.com/icons?d=gallery&m=free)
 
-  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#create">Create</a>
+  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#create">Create</button>
     description: Brainstorm and Prototype.
     icon: fa fa-hammer
 
-  - title: <button type="button" class="btn btn-process btn-lg" data-toggle="modal" data-target="#test">Deliver</a>
-    description: Pitch and Plan.
+  - title: <button type="button" class="btn btn-process btn-lg">Deliver</button>
+    description: Plan and Pitch (Submit)</button>
     icon: fab fa-slideshare
