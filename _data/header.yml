@@ -1,5 +1,7 @@
 site-tagline: "Ed App Challenge"
 
+site-tagline2: "Submit by April 13th"
+
 buttons:
   - text: "Submit"
     link: "#submit" # Use #id to link to a section on the page

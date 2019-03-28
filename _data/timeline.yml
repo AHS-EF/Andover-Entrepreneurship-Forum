@@ -6,20 +6,20 @@ timeline:
     image: img/icon/rocket.png
     description: "<p class='text-muted'>Launch Party in the AHS Library during H-Block!</p>"
 
-  - date: April 1<sup>st</sup>, 2019
+  - date: April 13<sup>th</sup>, 2019
     title: Preliminary Pitches Due
     image: img/icon/calendar.png
     description:  "<ol><li>Write your LEAN Business Plan</li><li>Prepare a pitch outline.</li><li>Upload your 5-minute pitch to YouTube</li><li>Submit your LEAN Business Plan and link to video.</li></ol>"
 
-  - date: April 8th<sup>th</sup>, 2019
-    title: Final Qualifiers Announced
+  - date: April 20<sup>th</sup>, 2019
+    title: Final Presenters Announced
     image: img/icon/award.png
     description: "<p class='text-muted'>Final Qualifiers will be notified by email.</p>"
 
-  - date: April 22nd<sup>th</sup>, 2019
-    title: Final Plan and Pitches Due
+  - date: April 29th<sup>th</sup>, 2019
+    title: Final Demo Pitch and Prototype Due
     image: img/icon/calendar.png
-    description: "<ol><li>Write your Final Business Plan</li><li>Prepare a Pitch/Speech Outline.</li><li>Upload your 5-minute pitch to YouTube</li><li>Submit your Final Business Plan and link to video.</li><li>Top 10 ideas are selected for Final Event.</li></ol>"
+    description: "<ol><li>Prototype your idea</li><li>Prepare your Open House Presentation</li><li>Upload your 5-minute demo pitch to YouTube</li><li>Submit your Final Business Plan and link to video.</li><li>Top 10 ideas are selected for Final Event.</li></ol>"
 
   - date: May 3<sup>rd</sup>, 2019
     title: Final Event

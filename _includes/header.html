@@ -38,6 +38,7 @@
         <div class="intro-text">
             <div class="intro-lead-in">{{ site.title }}</div>
             <div class="intro-heading">{{ site.data.header.site-tagline }}</div>
+            <div class="intro-lead-in">{{ site.data.header.site-tagline2 }}</div>
             {% for button in site.data.header.buttons %}
                 <a href="{{ button.link }}"
                    class="btn btn-xl {% if button.scroll %}page-scroll{% endif %}"
