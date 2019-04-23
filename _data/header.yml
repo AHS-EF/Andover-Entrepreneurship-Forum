@@ -1,6 +1,6 @@
 site-tagline: "Ed App Challenge"
 
-site-tagline2: "Submit by April 13th"
+site-tagline2:
 
 buttons:
   - text: "Submit"
